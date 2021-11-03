@@ -1,5 +1,7 @@
 # Thermal experiments for fractured rock characterization: theoretical analysis and inverse modeling
 
+[![DOI](https://zenodo.org/badge/422305167.svg)](https://zenodo.org/badge/latestdoi/422305167)
+
 Repository for data and code for the [DFN inversion project](https://arxiv.org/abs/2106.06632).
 
 ## Description of the purposes of included items
