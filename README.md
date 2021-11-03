@@ -25,6 +25,7 @@ pair\_cd\_cdf.py:
 - [uncorr\_1000\_20pdf.pkl](https://drive.google.com/file/d/1ff0ysWywsibzjxpkgmVu-5GWYSPKrvJo/view?usp=sharing): PDFs for the connected realizations for simulations with 1000 particles for CBTE with particle based simulation method.
 
 Representative CDFs of the logarithm of breakthrough times (in seconds) of 100 or 1000 particles, for connected realizations of the DFN characterized by a given combination of the DFN parameters (C,D):
+
 ![CDF realizations](/images/CDFs-realizations.png)
 
 ### 2. Construct informative prior distribution for (C,D)
@@ -37,10 +38,12 @@ Representative CDFs of the logarithm of breakthrough times (in seconds) of 100 o
 
 - informative\_prior/conn_regr.pkl saves the prior distribution generated with the DFN connectivity information. 
 ![prior with connectivity](/images/conn_prior_density.png)
+
 - informative\_prior/kde.pkl is the prior distribution with kernel density estimation with field data in informative\_prior/Classeur1.csv.
 ![prior with kde with field data](/images/prior.png)
+
 - uncorr\_100\_20pdf_conn.pkl: the connected realizations numbers for all 10000 cases.
-- 
+
 ### 3. Surrogate model training and grid searching inversion
 
 The NN surrogate model aims to replace the map: (C,D) --> iCDF
@@ -71,6 +74,7 @@ best_trained_model = Net(ls=best_config['ls'], n_l=best_config['n_l']).to(device
 ```
 
 Examples of the surrogate model test cases:
+
 ![NN surrogate test cases](/images/NN_test.png)
 
 
