@@ -41,7 +41,7 @@ Representative CDFs of the logarithm of breakthrough times (in seconds) of 100 o
 - informative\_prior/conn_regr.pkl saves the prior distribution generated with the DFN connectivity information. 
 ![prior with connectivity](/images/conn_prior_density.png)
 
-- informative\_prior/kde.pkl is the prior distribution with kernel density estimation with field data in informative\_prior/Classeur1.csv.
+- informative\_prior/kde.pkl is the prior distribution with kernel density estimation with field data in informative\_prior/Classeur1.csv. 
 ![prior with kde with field data](/images/prior.png)
 
 - uncorr\_100\_20pdf_conn.pkl: the connected realizations numbers for all 10000 cases.
