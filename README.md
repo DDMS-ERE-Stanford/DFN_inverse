@@ -12,6 +12,9 @@ PDF or CDF in the following context refer to those of the particle breakthrough 
 
 #### Included python scripts
 
+pk\_pdf.py:
+- go through each realization to save all the PDFs into a pickle file with the index of the PDFs.
+
 merge\_20\_pdf.py:
 - count how many realizations generated connected DFN, 
 - average the PDFs over the connected realizations.
