@@ -155,8 +155,8 @@ if __name__ == '__main__':
                 '{} is not in {}'.format(i, f)
             pdf_samples[f][str(i)] = pdf_simu['pdf'+str(i)]
     
-    # with open('/Users/zitongzhou/Desktop/FRACTURE/seeds20/n_conn.pkl', 'wb') as file:
-    #     pkl.dump(n_conn, file)
+    # with open('uncorr_100_20pdf_conn.pkl', 'wb') as file:
+    #     pkl.dump([C_conn, D_conn, num_conn], file)
     for i in n_conn.keys():
         print(
             i+':', min(list(n_conn[i].values()))
